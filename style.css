@@ -616,3 +616,45 @@ footer p{
     }
 
 }
+.video-destacado{
+
+    padding:120px 8%;
+}
+
+.video-contenido{
+
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.video-info{
+
+    flex:1;
+}
+
+.video-info h3{
+
+    color:#8bdcff;
+    font-size:2rem;
+    margin:20px 0;
+}
+
+.video-info p{
+
+    color:#cfd3e2;
+    line-height:1.8;
+}
+
+.video-box{
+
+    flex:1;
+}
+
+.video-box video{
+
+    width:100%;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,.08);
+}
